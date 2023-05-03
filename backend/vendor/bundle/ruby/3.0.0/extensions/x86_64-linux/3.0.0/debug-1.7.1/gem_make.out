@@ -1,0 +1,16 @@
+current directory: /home/mike/ConnectAfrica/back-end/africa-back/backend/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230412-30598-ol30v5.rb extconf.rb
+creating Makefile
+
+current directory: /home/mike/ConnectAfrica/back-end/africa-back/backend/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/mike/ConnectAfrica/back-end/africa-back/backend/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/mike/ConnectAfrica/back-end/africa-back/backend/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230412-30598-8oyz2c/debug

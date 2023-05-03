@@ -8,20 +8,21 @@ default: &default
   adapter: postgresql
   encoding: unicode
   host: localhost
-  username: mike
+  username: postgres
   password: 123mike
   pool: 5
+  port: 5433
 
 development:
   <<: *default
-  database: Tour-Africa-DB
+  database: Tour-Africa
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: Tour-Africa-DB
+  database: Tour-Africa
 
 production:
   url: <%= ENV["DATABASE_URL"] %>
